@@ -1,0 +1,26 @@
+{
+    "name": "Automatizador do SALWeb",
+    "version": "0.1",
+    "author": "Douglas Rodrigues de Almeida",
+    "description": "Automatiza o preenchimento de dados necessários para geração de GPS no SAL Web.",
+    "background": {
+        "page": "background.html",
+        "persistent": false
+    },
+    "icons": {
+        "20": "icons/icone_20.png",
+        "40": "icons/icone_40.png"
+    },
+    "page_action": {
+        "default_icon": {
+            "20": "icons/icone_20.png",
+            "40": "icons/icone_40.png"
+        },
+        "default_title": "Automatizar preenchimento",
+        "default_popup": "calcpost.html"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ]
+}
